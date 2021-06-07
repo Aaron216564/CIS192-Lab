@@ -1,0 +1,18 @@
+td_a a{
+    color: #454545;
+}
+ul.cate_list li:hover {
+    width: 232px;
+    height: 316px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    margin: 0 5px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+ul.cate_list li:hover{
+    background-color: #FFF;
+    box-shadow: 0 0 5px #E0E0E0;
+}
