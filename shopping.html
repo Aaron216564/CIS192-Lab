@@ -43,4 +43,37 @@
         <dd><a href="#">my collection</a></dd>
         <dd><a href="#">money management</a></dd>
     </dl>
+    <form method="post" action="">
+        <p>name:<input name="name" type="text"/></p>
+        <p>password:<input name="pass" type="password"></p>
+        <p>
+            <input type="submit" name="Button" value="submit"/>
+            <input type="reset" name="Reset" value="resubmit"/>
+        </p>
+    </form>
+    <from method="post" action="">
+        sex:
+        <input name="gen" type="radio" value="male"/>male
+        <input name="gen" type="radio" value="female"/>female
+    </from>
+    <form method="post" action="">
+        enter your date of birth:
+        <select name="bmom">
+            <option value="">[choose month]</option>
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+        </select>month
+        <input type="text" name="bday" value="dd" size="2" maxlength="2"/>day
+        <input type="text" name="byear" value="yyyy" size="4" maxlength="4"/>year
+    </form>
 </body>
