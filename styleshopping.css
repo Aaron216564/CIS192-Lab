@@ -4,3 +4,18 @@
 .b_btm li img:hover{
     transform: rotate(360deg) scale(1.2);
 }
+ul.menu_r li{
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    float: left;
+    display: inline;
+    margin-right: 10px;
+    font-weight: bold;
+}
+ul.menu_r li a{
+    color: #3E3E3E;
+}
+ul,menu_r li a:hover, ul.menu_r .active a{
+    color: #FF3C3C;
+}
