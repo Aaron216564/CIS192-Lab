@@ -19,3 +19,17 @@ ul.menu_r li a{
 ul,menu_r li a:hover, ul.menu_r .active a{
     color: #FF3C3C;
 }
+#cosmetics li div{
+    display: none;
+    text-align: center;
+}
+#cosmetics a:hover div{
+    display: block;
+}
+#jiji li div{
+    display: none;
+    text-align: center;
+}
+#jiji a:hover div{
+    display: block;
+}
