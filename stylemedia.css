@@ -1,0 +1,32 @@
+@media(max-width:500px){
+    h1{
+        text-align: left;
+    }
+    b_btm li img{
+        font-size: medium;
+    }
+    b_btm li h2{
+        text-align: center;
+    }
+}
+@media(min-width:501px){
+    nav>ul>li{
+        background-color: rgb(20, 20, 250);
+    }
+    .box{
+       background-color: pink; 
+       text-align: center;
+    }
+    cosmetics p{
+        text-align: center;
+        color: #BBB;
+    }
+    cosmetics ul li{
+        text-align: center;
+    }
+}
+@media(min-width:710px){
+    jiji li{
+        text-align:center ;
+    }
+}
