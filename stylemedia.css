@@ -17,12 +17,5 @@
        background-color: pink; 
        text-align: center;
     }
-    cosmetics ul li{
-        text-align: center;
-    }
 }
-@media(min-width:710px){
-    jiji li{
-        text-align:center ;
-    }
-}
+
