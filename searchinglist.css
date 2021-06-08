@@ -1,5 +1,6 @@
-td_a a{
-    color: #454545;
+body>table{
+    background color: aqua;
+    text-align: center;
 }
 ul.cate_list li:hover {
     width: 232px;
