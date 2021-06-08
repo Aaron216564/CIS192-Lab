@@ -14,5 +14,7 @@ ul.cate_list li:hover {
 }
 ul.cate_list li:hover{
     background-color: #FFF;
+    -webkit-box-shadow: 0 0 5px #E0E0E0;
+    -moz-box-shadow: 0 0 5px #E0E0E0;
     box-shadow: 0 0 5px #E0E0E0;
 }
