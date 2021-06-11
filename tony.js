@@ -1,12 +1,19 @@
-var captions = new Array(3);
-captions[0]="amazon";
-captions[1]="make-up";
-captions[2]="clothes";
-var htmlCode = "";
-for(var i = 0; i < 3; i++){
-  htmlCode += "<ul>";
-  htmlCode += "<img alt='' src='slide" + i + ".jpg'/>";
-  htmlCode += "<li>" + captions[i] + "</li>";
-  htmlCode += "</ul>";
+runClock();
+setInterval(runClock,1000);
+function runClock(){
+  var thisDay = new Date();
+  var thisDate = thisDay.toLocaleDateString();
+  var thisDayNum = thisDay.getDay();
+  var thisWeekday = getWeekday(thisDayNum);
+  var thisTime = thisDay.toLocaleDateString();
+
+  document.getElementById("date").textContent = thisDate;
+  document.getElementById("wday").textContent = thisWeekday;
+  document.getElementById("time").textContent = thisTime;
 }
-document.getElementById("gallery").innerHTML = htmlCode;
+
+function getWeekday(dayNum) {
+   var wDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+   return wDays[dayNum];
+}
+
